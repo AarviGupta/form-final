@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form
+    </title>
+    <label id="label_username"></label>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="index - Copy.html">
+    <script src="main.js">
+
+    </script>
+</head>
+<body id="body">
+    <center>
+           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="div_info">
+        <h1 id="heading">Login Form</h1>
+           <img id="imagewelcome"src="welcomee.png">
+            <div id="username_">Username<font color="red">*</font></div><input for="uname" type="text" min="1" max="20" placeholder="Enter username" id="input_username">
+                    <br>
+                   
+        <div id="password_">Password <font color="red">*</font></div><input type="text" placeholder="Enter password" id="input_password">
+        <br>
+            <div id="cpassword_">Confirm Password <font color="red">*</font></div><input type="text" placeholder="Confirm password" id="input_confirm_password">
+        <br>
+        <div id="age_">Age <font color="red">*</font></div><input type="number" placeholder="Enter age" id="input_age">
+        <br>
+        <div id="sex_">Sex <font color="red">*</font></div><input id="input_male" type="radio" id="male" name="gender" value="male">
+        <label id="label_male" for="male">Male</label><br>
+        <input id="input_female" type="radio" id="female" name="gender" value="female">
+        <label id="label_female" for="female">Female</label><br>
+              <br>
+        <div id="address_">Address <font color="red">*</font></div><input type="text" placeholder="Enter address" id="input_address">
+        <br>
+        <div id="phnu_">Phone number <font color="red">*</font></div><input type="number" placeholder="Enter phone number" id="input_phone_number" min="10" max="10">
+        <br>
+        <div id="odet_">Other details <font color="red">*</font></div><input type="text" placeholder="Enter other details" id="input_other_details">
+        <br>
+        <br>
+        <button type="submit" id="button_submit" onclick="check()">SUBMIT</button>
+            </div>
+           
+        </center>
+</body>
+</html>
